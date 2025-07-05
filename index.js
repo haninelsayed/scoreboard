@@ -97,4 +97,5 @@ function restartGame() {
     startCountdown()
 }
 
+//starting timer on page load
 startCountdown()
