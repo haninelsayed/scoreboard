@@ -4,26 +4,28 @@
     <link rel="stylesheet" href="index.css">
   </head>
   <body>
+    <h4>Time remaining: <span id="countdown"></span></h4>
     <div class="container">
       <div class="column">
-        <h3>HOME</h3>
+        <h3 id="home-el">HOME</h3>
         <div id="score1">0</div>
         <div class="grid-buttons">
-          <button class="add-btn" onclick="addOne()">+1</button>
-          <button class="add-btn" onclick="addTwo()">+2</button>
-          <button class="add-btn" onclick="addThree()">+3</button>
+          <button id="home-add-1" class="add-btn">+1</button>
+          <button id="home-add-2" class="add-btn">+2</button>
+          <button id="home-add-3" class="add-btn">+3</button>
         </div>
       </div>
       <div class="column">
-        <h3>GUEST</h3>
+        <h3 id="guest-el">GUEST</h3>
         <div id="score2">0</div>
         <div class="grid-buttons">
-          <button class="add-btn" onclick="addOneRe()">+1</button>
-          <button class="add-btn" onclick="addTwoRe()">+2</button>
-          <button class="add-btn" onclick="addThreeRe()">+3</button>
+          <button id="guest-add-1" class="add-btn">+1</button>
+          <button id="guest-add-2" class="add-btn">+2</button>
+          <button id="guest-add-3" class="add-btn">+3</button>
         </div>
       </div>
     </div>
+    <button id="restart-btn" onclick="restartGame()">New Game</button>
     <script src="index.js"></script>
   </body>
 </html>

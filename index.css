@@ -2,12 +2,21 @@ body {
   margin: 0;
 }
 
+h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #F94F6D;
+  font-weight: bold;
+  width: 200px;
+  margin: 20px auto;
+}
+
 .container {
   display: flex;
   justify-content: space-around;
   background-color: #1B244A;
   width: 575px;
   height: 385px;
+  margin: 0 auto;
 }
 
 .column {
@@ -56,6 +65,18 @@ h3 {
   background-color: transparent;
   color: #9AABD8;
   margin-left: 10px;
+  border: #9AABD8 2px solid;
+  padding: 10px 10px;
+  border-radius: 4px;
+  font-family: Cursed Timer ULiL;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#restart-btn {
+  display: block;
+  margin: 10px auto;
+  background-color: #9AABD8;
   border: #9AABD8 2px solid;
   padding: 10px 10px;
   border-radius: 4px;
